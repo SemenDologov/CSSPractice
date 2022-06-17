@@ -1,0 +1,55 @@
+body { 
+    padding: 0px;
+    margin: 0px; 
+}
+.container {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.image {
+    width: 40%;
+    height: 60vh;
+}
+.about{
+    width: 60%;
+    height: 60vh;
+    background: rgb(245, 252, 255);
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+.buttons {
+    width: 100vw;
+    height: 40%;
+    background: rgb(189, 206, 212);
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: 20% 60% 20%;
+}
+.button {
+    margin-top: 9vw;
+    margin-left: 25%;
+    width: 50%;
+    height: 20%;
+    border: 0px;
+    border-radius: 20px;
+    background: rgba(215, 226, 250, 0.8);
+    color: #5F4AD9;
+    font-weight: 800;
+}
+.text-about {
+    font-family: 'Arimo', sans-serif;
+    font-size: 1.5em;
+    font-weight: 800;
+    line-height: 1.5em;
+    color: #5F4AD9;
+}
+.text-we-offer {
+    font-family: 'Arimo', sans-serif;
+    font-size: 1.5em;
+    font-weight: 800;
+    text-align: center;
+    line-height: 270%;
+    color: #5F4AD9;
+}
