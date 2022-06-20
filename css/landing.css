@@ -1,0 +1,28 @@
+*{
+  font-size: 22px;
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  background:	rgb(80,80,80);
+}
+.top-bar {
+  width: 100%;
+  height: 5vh;
+  background: rgb(32,32,32);
+}
+.logo {
+  width: 30px;
+  padding: 0.2vh 4vw;
+}
+.name {
+  float: right;
+  width: 10%;
+  padding: 1.1vh 1.1vw;
+  color: rgb(177, 177, 177);
+}
+.text-about {
+  color: rgb(177, 177, 177);
+  margin-top: 35vh;
+  text-align: center;
+}
